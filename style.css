@@ -3,13 +3,13 @@
 }
 
 @font-face {
-  font-family: poppins;
-  src: url(../Shusha-logistics/fonts/poppins/Poppins-Regular.ttf);
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
-  font-family: montserrat;
-  src: url(../Shusha-logistics/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat/Montserrat-VariableFont_wght.ttf");
 }
 
 * {
@@ -131,4 +131,51 @@ main .slogan p {
 }
 /* ************************************************************************** */
 
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
+.aboutContentWrapper {
+  display: flex;
+  padding: 100px 0;
+  justify-content: space-between;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.aboutus .aboutUs p {
+  color: #b90470;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.aboutus .aboutUs h3 {
+  color: #343a3e;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.aboutus .aboutsUsText {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.aboutus .aboutContentWrapper .aboutsUsText p {
+  color: #343a3e;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 300;
+}
