@@ -214,3 +214,23 @@ main .slogan p {
   margin-top: 20px;
   margin-bottom: 150px;
 }
+
+.services-wrapper .services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services-wrapper .services p {
+  color: #b90470;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.services-wrapper .services h3 {
+  color: #343a3e;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 600;
+}
