@@ -78,5 +78,57 @@ header .header_top .right_side .socialMediaIcon {
 
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../Shusha-logistics/assets/banner/banner.png);
+    url("./assets/banner/banner.png");
+  padding: 60px 0;
+  background-position: center;
+  background-size: cover;
 }
+
+main .banner .navbar {
+  justify-content: space-between;
+  background-color: #fff;
+  height: 70px;
+  padding: 0 50px;
+  align-items: center;
+}
+
+main .banner .navigation .link {
+  color: #000;
+  margin-left: 20px;
+}
+
+main .banner .navigation .link:hover {
+  border-bottom: 2px solid var(--current-color);
+}
+
+main .slogan {
+  padding: 60px 0 0 0;
+  color: #fff;
+}
+
+main .slogan .title {
+  font-size: 64px;
+  font-family: montserrat;
+}
+
+main .slogan .secont_title {
+  margin: 20px 0;
+}
+
+main .slogan p {
+  width: 58ch;
+  text-align: justify;
+}
+
+.aboutButton {
+  margin-top: 20px;
+  display: block;
+  width: fit-content;
+}
+
+.aboutButton:hover {
+  color: #fff;
+}
+/* ************************************************************************** */
+
+
