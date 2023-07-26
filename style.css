@@ -3,7 +3,8 @@
 }
 
 @font-face{
-    
+    font-family: poppins;
+    src: url(../Shusha-logistics/fonts/poppins/Poppins-Regular.ttf);
 }
 
 * {
