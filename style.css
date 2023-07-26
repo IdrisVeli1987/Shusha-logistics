@@ -1,8 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+:root{
+    --current-color: #b90470
+    --
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--current-color);
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+header .header_top {
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+}
+
+.phone_number{
+    color: #fff;
 }
