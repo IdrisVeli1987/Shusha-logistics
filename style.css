@@ -1,15 +1,15 @@
-:root{
-    --current-color: #b90470
+:root {
+  --current-color: #b90470;
 }
 
-@font-face{
-    font-family: poppins;
-    src: url(../Shusha-logistics/fonts/poppins/Poppins-Regular.ttf);
+@font-face {
+  font-family: poppins;
+  src: url(../Shusha-logistics/fonts/poppins/Poppins-Regular.ttf);
 }
 
-@font-face{
-    font-family: montserrat;
-    src: url(../Shusha-logistics/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+@font-face {
+  font-family: montserrat;
+  src: url(../Shusha-logistics/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
 * {
@@ -19,13 +19,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-}
-
-header {
-  background-color: var(--current-color);
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
+  font-family: poppins;
 }
 
 .container {
@@ -38,12 +32,51 @@ header {
   display: flex;
 }
 
+.myButton {
+  background-color: var(--current-color);
+  color: #fff;
+  padding: 10px 30px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px var(--current-color);
+  border-radius: 4px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.myButton:hover {
+  background-color: transparent;
+  border: 1px solid var(--current-color);
+  color: #000;
+}
+
+/* ************************************************************************************************** */
+
+header {
+  background-color: var(--current-color);
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
 header .header_top {
   justify-content: space-between;
   align-items: center;
-  width: 50px;
+  height: 50px;
 }
 
-.phone_number{
-    color: #fff;
+header .header_top .left_side .phone_number,
+header .header_top .right_side .socialMediaIcon {
+  color: #fff;
+}
+
+header .header_top .left_side .phone_number {
+  margin-right: 30px;
+}
+
+header .header_top .right_side .socialMediaIcon {
+  margin-left: 20px;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Shusha-logistics/assets/banner/banner.png);
 }
