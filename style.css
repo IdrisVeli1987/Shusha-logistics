@@ -7,6 +7,11 @@
     src: url(../Shusha-logistics/fonts/poppins/Poppins-Regular.ttf);
 }
 
+@font-face{
+    font-family: montserrat;
+    src: url(../Shusha-logistics/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
