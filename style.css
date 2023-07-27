@@ -250,11 +250,11 @@ main .slogan p {
 .services-wrapper .imgbox .box h5,
 .services-wrapper .imgbox .box p {
   margin: 10px;
+  background-color: #fff;
 }
 
 .services-wrapper .imgbox .box {
   position: relative;
-  box-shadow: 0 0 10px #ddd;
   width: calc(25% - 22.5px);
 }
 
@@ -307,12 +307,14 @@ main .slogan p {
   font-family: "Montserrat";
   font-size: 50px;
   font-weight: 600;
+  padding-bottom: 16px;
 }
 
 .principle-wrapper-bg {
   position: relative;
   width: 100%;
 }
+
 .principle-wrapper-bg::before {
   content: "";
   position: absolute;
@@ -327,6 +329,10 @@ main .slogan p {
   z-index: -1;
 }
 
+.text-boxes {
+  display: flex;
+  justify-content: space-between;
+}
 .text-box {
   display: flex;
   align-items: flex-start;
@@ -353,7 +359,8 @@ main .slogan p {
   width: 300px;
   font-weight: 300;
 }
-.principle-wrapper .text-box img{
+
+.principle-wrapper .text-box img {
   align-self: flex-end;
   justify-self: end;
   margin-top: auto;
