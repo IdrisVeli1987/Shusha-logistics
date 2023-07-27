@@ -234,3 +234,53 @@ main .slogan p {
   font-size: 50px;
   font-weight: 600;
 }
+
+.imgbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.services-wrapper .imgbox .box img {
+  width: 100%;
+}
+
+.services-wrapper .imgbox .box h5,
+.services-wrapper .imgbox .box p {
+  margin: 10px;
+}
+
+.services-wrapper .imgbox .box {
+  position: relative;
+  box-shadow: 0 0 10px #ddd;
+  width: calc(25% - 22.5px);
+}
+
+.services-wrapper .imgbox .box:nth-child(1) {
+  top: 100px;
+}
+
+.services-wrapper .imgbox .box:nth-child(4),
+.services-wrapper .imgbox .box:nth-child(7) {
+  top: -75px;
+}
+
+.services-wrapper .imgbox .box:nth-child(3),
+.services-wrapper .imgbox .box:nth-child(6) {
+  top: -15px;
+}
+
+.services-wrapper .imgbox .box:nth-child(2),
+.services-wrapper .imgbox .box:nth-child(5) {
+  top: 50px;
+}
+
+.services-wrapper .imgbox .box h5 {
+  color: #b90470;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+
+/* ************************************************************************************************** */
