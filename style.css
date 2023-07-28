@@ -426,10 +426,12 @@ main .slogan p {
   margin-bottom: 200px;
   position: relative;
 }
+
 #write {
   position: relative;
   width: 100%;
 }
+
 #write::after {
   position: absolute;
   content: "";
@@ -506,6 +508,13 @@ footer {
   position: relative;
   width: 100%;
 }
+
+footer .footer-images .footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer .footer-images .footer-vector .susa {
   position: absolute;
   background-color: #b90470;
@@ -513,4 +522,36 @@ footer .footer-images .footer-vector .susa {
   object-fit: cover;
   width: 100%;
   left: 0;
+}
+
+footer .footer-images .footer-info {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 1118px;
+  height: 215px;
+}
+
+footer .footer-images .footer-info .footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  padding: 56px 0 136px 40px;
+}
+
+footer .footer-images .footer-info .footer-info-text,
+footer .footer-images .footer-info .footer-info-social,
+footer .footer-images .footer-info .footer-info-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .footer-images .footer-info .footer-info-contact {
+  margin-bottom: 35px;
+}
+
+footer .footer-images .footer-info .footer-info-social i {
+  font-size: 25px;
+  color: #b90470;
+  margin-right: 40px;
+  padding-top: 20px;
 }
