@@ -413,13 +413,14 @@ main .slogan p {
 
 .our-team-img img {
   padding-top: 80px;
+  width: 100%;
 }
 
 /* ************************************************************************************************** */
 
 .write-to-us {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   margin-top: 50px;
 }
@@ -461,6 +462,8 @@ main .slogan p {
   box-shadow: 0 0 10px #ddd;
   width: 515px;
   height: 390px;
+  padding-top: 20px;
+  margin-top: 55px;
 }
 
 .write-to-us .contact p {
@@ -472,4 +475,13 @@ main .slogan p {
 .write-to-us .contact .contact-social {
   display: flex;
   align-items: flex-start;
+  gap: 20px;
+  width: 82%;
+  height: 10%;
+  padding-top: 50px;
+}
+
+main .write-to-us .contact .contact-social i {
+  color: #b90470;
+  font-size: 30px;
 }
