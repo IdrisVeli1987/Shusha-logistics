@@ -432,16 +432,6 @@ main .slogan p {
   width: 100%;
 }
 
-#write::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: -5px;
-  height: 30%;
-  width: 100%;
-  background-color: #b90470;
-  clip-path: polygon(0 24%, 100% 2%, 100% 100%, 0% 100%);
-}
 .write-to-us .write-to-us-head {
   display: flex;
   justify-content: flex-start;
@@ -507,6 +497,22 @@ main .write-to-us .contact .contact-social i {
 footer {
   position: relative;
   width: 100%;
+  height: 850px;
+  display: flex;
+  background-color: #b90470;
+  flex-direction: column;
+  justify-content: space-between;
+  clip-path: polygon(0 24%, 100% 2%, 100% 100%, 0% 100%);
+}
+
+.shushaBg {
+  width: 100%;
+  height: 400px;
+  background-image: url(./assets/footer/susa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 9;
 }
 
 footer .footer-images .footer-info {
@@ -515,20 +521,11 @@ footer .footer-images .footer-info {
   align-items: center;
 }
 
-footer .footer-images .footer-vector .susa {
-  position: absolute;
-  background-color: #b90470;
-  z-index: -1;
-  object-fit: cover;
-  width: 100%;
-  left: 0;
-}
-
 footer .footer-images .footer-info {
-  margin: 0 auto;
-  background-color: #fff;
+  margin: 200px auto 0;
   width: 1118px;
   height: 215px;
+  background-color: white;
 }
 
 footer .footer-images .footer-info .footer-logo {
@@ -554,4 +551,24 @@ footer .footer-images .footer-info .footer-info-social i {
   color: #b90470;
   margin-right: 40px;
   padding-top: 20px;
+}
+
+footer .footer-down {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .footer-down .footer-down-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+footer .footer-down .footer-down-info p{
+  float: left;
 }
