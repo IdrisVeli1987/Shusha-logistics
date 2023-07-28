@@ -292,7 +292,7 @@ main .slogan p {
 }
 
 .principle {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .principle p {
@@ -333,6 +333,7 @@ main .slogan p {
   display: flex;
   justify-content: space-between;
 }
+
 .text-box {
   display: flex;
   align-items: flex-start;
@@ -341,7 +342,7 @@ main .slogan p {
   width: 406px;
   height: 450px;
   padding: 80px 50px 10px 50px;
-  margin-top: 150px;
+  margin-top: 70px;
   box-shadow: 0 0 10px #ddd;
 }
 
@@ -364,4 +365,111 @@ main .slogan p {
   align-self: flex-end;
   justify-self: end;
   margin-top: auto;
+}
+
+/* ************************************************************************************************** */
+
+.our-team-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 120px;
+  width: 100%;
+}
+
+.our-team-head {
+  flex-direction: column;
+  display: flex;
+  width: 40%;
+}
+
+.our-team-wrapper .our-team-head p {
+  color: #b90470;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.our-team-wrapper .our-team-head h5 {
+  color: #343a3e;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.our-team-text {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+.our-team-wrapper .our-team-text p {
+  color: #343a3e;
+  font-family: "Poppins";
+  font-size: 16px;
+  max-width: 650px;
+  padding-top: 50px;
+}
+
+.our-team-img img {
+  padding-top: 80px;
+}
+
+/* ************************************************************************************************** */
+
+.write-to-us {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.write-to-us .write-to-us-head {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 50%;
+}
+
+.write-to-us .write-to-us-head p {
+  color: #b90470;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.write-to-us .write-to-us-head h5 {
+  color: #343a3e;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.write-to-us .write-to-us-head .contact-text {
+  color: #343a3e;
+  font-family: "Poppins";
+  font-size: 16px;
+  max-width: 467px;
+  padding-top: 20px;
+}
+
+.write-to-us .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px #ddd;
+  width: 515px;
+  height: 390px;
+}
+
+.write-to-us .contact p {
+  text-align: start;
+  width: 82%;
+  margin-top: 30px;
+}
+
+.write-to-us .contact .contact-social {
+  display: flex;
+  align-items: flex-start;
 }
