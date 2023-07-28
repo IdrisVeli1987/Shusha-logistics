@@ -423,8 +423,23 @@ main .slogan p {
   justify-content: space-between;
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 200px;
+  position: relative;
 }
-
+#write {
+  position: relative;
+  width: 100%;
+}
+#write::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -5px;
+  height: 30%;
+  width: 100%;
+  background-color: #b90470;
+  clip-path: polygon(0 24%, 100% 2%, 100% 100%, 0% 100%);
+}
 .write-to-us .write-to-us-head {
   display: flex;
   justify-content: flex-start;
@@ -484,4 +499,18 @@ main .slogan p {
 main .write-to-us .contact .contact-social i {
   color: #b90470;
   font-size: 30px;
+}
+
+/* ************************************************************************** */
+footer {
+  position: relative;
+  width: 100%;
+}
+footer .footer-images .footer-vector .susa {
+  position: absolute;
+  background-color: #b90470;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  left: 0;
 }
